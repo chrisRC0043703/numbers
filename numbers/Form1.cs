@@ -44,7 +44,7 @@ namespace numbers
             richTextBox1.AppendText(c.ToString("0.0") + "\n");
             richTextBox1.AppendText(c.ToString("0.0E0") + "\n");
             richTextBox1.AppendText(c.ToString("0.00E00") + "\n");
-            string st = "3";
+            string st = "three";
             try
             {
                 int it = int.Parse(st);
